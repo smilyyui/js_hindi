@@ -1,0 +1,26 @@
+let score="33abc"
+console.log(typeof score)
+let number=Number(score)
+console.log(typeof number)
+console.log(number)//nan
+let a=null
+let b=Number(null)
+console.log(b)//0
+// undefined nan
+let bool=true
+let con=Number(bool)
+console.log(con)
+//conversion
+//"33" => 33
+//"33abc" =>nan
+// true=>1 false=>0
+let n=1;
+let boolean=Boolean(n);
+console.log(boolean)
+// boolean conversion
+// 1=> true 0=> false
+//"" =>false "abhi"=>true
+console.log("1"+2)
+console.log(1+"2")
+console.log(1+2+"1")
+console.log("1"+2+1)
