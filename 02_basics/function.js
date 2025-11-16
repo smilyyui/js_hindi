@@ -37,4 +37,5 @@ handleObject({
     username: "sam",
     price: 399
 }) // koi object bna kar pass karta h 
+//Browser ke andar global object h window object h aur node ke liye empty object
 
