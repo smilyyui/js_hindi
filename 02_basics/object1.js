@@ -11,7 +11,10 @@ const JsUser = {
     lastLoginDays: ["Monday", "Saturday"]
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3f4985ee20cb16086d6c4b28bcfca2ad59b51d86
 console.log(JsUser.email)
 console.log(JsUser["email"])
 console.log(JsUser.mysym)//datatype string m de rha h symbol ki tarah use ho rha h
@@ -28,4 +31,8 @@ console.log(JsUser.greeting())
 JsUser.greeting2= function(){
     console.log(`hello js user,${this.name}`);
 }
+<<<<<<< HEAD
 console.log(JsUser.greeting2())
+=======
+console.log(JsUser.greeting2())
+>>>>>>> 3f4985ee20cb16086d6c4b28bcfca2ad59b51d86
