@@ -1,0 +1,4 @@
+// js is synchronous (Code runs line by line)
+//js is single threaded work only one task at a time
+// blocking code ==> block the flow of program
+// non blocking code==>does not block execution
